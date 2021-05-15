@@ -45,6 +45,7 @@ h1{
 }
 
 .title-image {
+  margin-left: 15%;
   width: 60%;
   transform: rotate(25deg);
 }
