@@ -28,7 +28,7 @@ h1{
 }
  /* navbar */
 .logo-text{
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -45,11 +45,33 @@ h1{
 }
 
 .title-image {
-  margin-left: 15%;
   width: 60%;
   transform: rotate(25deg);
 }
 
 .download-button{
   margin: 5% 3% 5% 0;
+}
+
+/* icons */
+.icons{
+  font-size: 50px;
+  color: #ff4c68;
+  margin: auto;
+}
+
+.fas:hover{
+  color: #fd0028;
+}
+
+/* icon */
+
+.col-center{
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* container */
+.con-2 {
+  margin:0 0 0 0;
 }
