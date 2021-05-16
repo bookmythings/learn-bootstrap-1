@@ -11,6 +11,12 @@ h1{
   line-height: 1.5;
 }
 
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -69,9 +75,47 @@ h1{
 .col-center{
   text-align: center;
   padding: 40px 20px;
+  font-weight: bold;
 }
 
 /* container */
 .con-2 {
   margin:0 0 0 0;
+  padding: 7% 15%;
+}
+
+.f-content{
+  color: #8f8f8f;
+  padding: 0 35px;
+}
+
+/* Testimonials section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+#press {
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #ff4c68;
+
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 70px;
+  margin: 20px;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.ts-ap-1 {
+  font-family: inherit;
 }
