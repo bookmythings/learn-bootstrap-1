@@ -34,7 +34,7 @@ h2 {
 
 /* navbar */
 .logo-text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -156,6 +156,8 @@ h2 {
 
   #title {
     text-align: center;
+    background-color: black;
+    color: white;
   }
 
   .download-button {
@@ -172,5 +174,27 @@ h2 {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.5;
+  }
+
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1;
+    background-color: #000000;
+    border-radius: 20px 0px 10px 10px;
+    box-shadow: 0 0.25rem 5rem 6px rgb(0 0 0 / 32%);
+  }
+
+  #testimonials {
+    background-color: Black;
+  }
+
+  #press {
+    background-color: Black;
   }
 }
