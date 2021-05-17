@@ -16,7 +16,7 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* navbar */
@@ -52,8 +52,10 @@ h2 {
 }
 
 .title-image {
-  width: 60%;
+  width: 23%;
   transform: rotate(25deg);
+  position: absolute;
+  padding-left: 3%;
 }
 
 .download-button {
@@ -87,6 +89,11 @@ h2 {
 .f-content {
   color: #8f8f8f;
   padding: 0 35px;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
 }
 
 /* Testimonials section */
@@ -129,4 +136,41 @@ h2 {
 
 .card-section {
   padding: 3% 4%;
+}
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #ff4c68;
+}
+
+/* Media Screen Mobile Responsive css */
+@media (max-width: 1048px) {
+  .head-text {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: white;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .download-button {
+    font-size: 10px;
+  }
+
+  .title-image {
+    width: 70%;
+    transform: rotate(0);
+    position: static;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
 }
