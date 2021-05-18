@@ -138,11 +138,26 @@ h2 {
   padding: 3% 4%;
 }
 
+.f-cta{
+  font-size: 3.25rem;
+  color: white;
+  font-weight: bold;
+}
+
 #cta {
   padding: 7% 15%;
   text-align: center;
   line-height: 1.5;
   background-color: #ff4c68;
+}
+
+#footer{
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.icon-footer{
+  padding: 10px 5px;;
 }
 
 /* Media Screen Mobile Responsive css */
